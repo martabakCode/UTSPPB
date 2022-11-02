@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LaporanBarang">
+    <TableRow
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dip"
+            android:gravity="center"
+            android:background="@drawable/border_right_bottom"
+            android:text="Gambar"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:text="Nama Barang"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:gravity="center"
+            android:text="Satuan"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/stok"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:text="Stok"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:text="Harga"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:gravity="center"
+            android:text="Terjual"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dip"
+            android:background="@drawable/border_right_bottom"
+            android:text="Sisa"
+            android:textSize="12dp" />
+
+    </TableRow>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header" />
+</TableLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/rect.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/drawable/border_right_bottom.xml" value="0.1537037037037037" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1537037037037037" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/img.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_detail_data.xml" value="0.28876860927176007" />
+        <entry key="app/src/main/res/layout/activity_display_data.xml" value="0.14463019250253292" />
+        <entry key="app/src/main/res/layout/activity_edit_data.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_laporan_barang.xml" value="0.2590517553897071" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12153395820515703" />
+        <entry key="app/src/main/res/layout/activity_menu_list.xml" value="0.2716844732769737" />
+        <entry key="app/src/main/res/layout/activity_print_data.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/singeldata.xml" value="0.2961165048543689" />
+        <entry key="app/src/main/res/layout/tabledata.xml" value="0.3610257906256166" />
+        <entry key="app/src/main/res/menu/flow_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13703703703703704" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
